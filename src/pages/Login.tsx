@@ -1,121 +1,80 @@
-
 const Login = () => {
-    return (
-        <section className="h-screen">
-  <div className="container h-full px-6 py-24">
-    <div
-      className="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
-     
-      <div className="mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
-        <img
-          src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
-          className="w-full"
-          alt="Phone image" />
-      </div>
-
-      <div className="md:w-8/12 lg:ml-6 lg:w-5/12">
-        <form>
-          <div className="relative mb-6" data-te-input-wrapper-init>
-            <input
-              type="text"
-              className="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-              id="exampleFormControlInput3"
-              placeholder="Email address" />
-            <label
-              htmlFor="exampleFormControlInput3"
-              className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[2.15] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[1.15rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[1.15rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
-              >Email address
-            </label>
-          </div>
-
-          <div className="relative mb-6" data-te-input-wrapper-init>
-            <input
-              type="password"
-              className="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[2.15] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-              id="exampleFormControlInput33"
-              placeholder="Password" />
-            <label
-              htmlFor="exampleFormControlInput33"
-              className="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[2.15] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[1.15rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[1.15rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
-              >Password
-            </label>
-          </div>
-
-          <div className="mb-6 flex items-center justify-between">
-            <div className="mb-[0.125rem] block min-h-[1.5rem] pl-[1.5rem]">
-              <input
-                className="relative float-left -ml-[1.5rem] mr-[6px] mt-[0.15rem] h-[1.125rem] w-[1.125rem] appearance-none rounded-[0.25rem] border-[0.125rem] border-solid border-neutral-300 outline-none before:pointer-events-none before:absolute before:h-[0.875rem] before:w-[0.875rem] before:scale-0 before:rounded-full before:bg-transparent before:opacity-0 before:shadow-[0px_0px_0px_13px_transparent] before:content-[''] checked:border-primary checked:bg-primary checked:before:opacity-[0.16] checked:after:absolute checked:after:-mt-px checked:after:ml-[0.25rem] checked:after:block checked:after:h-[0.8125rem] checked:after:w-[0.375rem] checked:after:rotate-45 checked:after:border-[0.125rem] checked:after:border-l-0 checked:after:border-t-0 checked:after:border-solid checked:after:border-white checked:after:bg-transparent checked:after:content-[''] hover:cursor-pointer hover:before:opacity-[0.04] hover:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:shadow-none focus:transition-[border-color_0.2s] focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-[0.875rem] focus:after:w-[0.875rem] focus:after:rounded-[0.125rem] focus:after:content-[''] checked:focus:before:scale-100 checked:focus:before:shadow-[0px_0px_0px_13px_#3b71ca] checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s] checked:focus:after:-mt-px checked:focus:after:ml-[0.25rem] checked:focus:after:h-[0.8125rem] checked:focus:after:w-[0.375rem] checked:focus:after:rotate-45 checked:focus:after:rounded-none checked:focus:after:border-[0.125rem] checked:focus:after:border-l-0 checked:focus:after:border-t-0 checked:focus:after:border-solid checked:focus:after:border-white checked:focus:after:bg-transparent dark:border-neutral-600 dark:checked:border-primary dark:checked:bg-primary dark:focus:before:shadow-[0px_0px_0px_13px_rgba(255,255,255,0.4)] dark:checked:focus:before:shadow-[0px_0px_0px_13px_#3b71ca]"
-                type="checkbox"
-                value=""
-                id="exampleCheck3"
-                checked />
-              <label
-                className="inline-block pl-[0.15rem] hover:cursor-pointer"
-                htmlFor="exampleCheck3">
-                Remember me
-              </label>
-            </div>
-
-            <a
-              href="#!"
-              className="text-primary transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 dark:text-primary-400 dark:hover:text-primary-500 dark:focus:text-primary-500 dark:active:text-primary-600"
-              >Forgot password?</a>
-          </div>
-
-          <button
-            type="submit"
-            className="inline-block w-full rounded bg-blue-700 px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
-            Sign in
-          </button>
-
-          <div
-            className="my-4 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300">
-            <p
-              className="mx-4 mb-0 text-center font-semibold dark:text-neutral-200">
-              OR
-            </p>
-          </div>
-
-          <a
-            className="mb-3 flex w-full items-center justify-center rounded bg-primary px-7 pb-2.5 pt-3 text-center text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
-            style={{backgroundColor: "#3b5998"}}
-            href="#!"
-            role="button"
-            data-te-ripple-init
-            data-te-ripple-color="light">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="mr-2 h-3.5 w-3.5"
-              fill="currentColor"
-              viewBox="0 0 24 24">
+  return (
+    <section className="flex items-center justify-center h-screen">
+      <div className="min-w-fit flex-col border bg-white px-6 py-14 shadow-md rounded-[4px] ">
+        <div className="mb-8 flex justify-center">
+           <svg className="h-6" viewBox="0 0 111 21">
               <path
-                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
-            </svg>
-            Continue with Facebook
-          </a>
-          <a
-            className="mb-3 flex w-full items-center justify-center rounded bg-info px-7 pb-2.5 pt-3 text-center text-sm font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#54b4d3] transition duration-150 ease-in-out hover:bg-info-600 hover:shadow-[0_8px_9px_-4px_rgba(84,180,211,0.3),0_4px_18px_0_rgba(84,180,211,0.2)] focus:bg-info-600 focus:shadow-[0_8px_9px_-4px_rgba(84,180,211,0.3),0_4px_18px_0_rgba(84,180,211,0.2)] focus:outline-none focus:ring-0 active:bg-info-700 active:shadow-[0_8px_9px_-4px_rgba(84,180,211,0.3),0_4px_18px_0_rgba(84,180,211,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(84,180,211,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(84,180,211,0.2),0_4px_18px_0_rgba(84,180,211,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(84,180,211,0.2),0_4px_18px_0_rgba(84,180,211,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(84,180,211,0.2),0_4px_18px_0_rgba(84,180,211,0.1)]"
-            style={{backgroundColor: "#55acee"}}
-            href="#!"
-            role="button"
-            data-te-ripple-init
-            data-te-ripple-color="light">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="mr-2 h-3.5 w-3.5"
-              fill="currentColor"
-              viewBox="0 0 24 24">
+                className="fill-rose-600"
+                d="M9.45569.11334C9.33771.0392836 9.20123.0 9.06194.0c-.1393.0-.27577.0392836-.39375.11334-.94292.60914-1.81132 1.32652-2.5875 2.1375-1.725 1.79062-2.64375 3.74062-2.64375 5.625.0 1.49184.59263 2.92256 1.64752 3.97746s3.97748 1.6475 3.97748 1.6475 2.92256-.5926 3.97746-1.6475 1.6475-2.48562 1.6475-3.97746c0-4.49063-5.01559-7.63125-5.23121-7.7625zM9.06194 12.0008c-.29582.0013-.58896-.0561-.86251-.1687-.27354-.1126-.52207-.2783-.73125-.4875-.20918-.2092-.37486-.4577-.4875-.7313-.11263-.2735-.16998-.5666-.16874-.86246.0-2.25 2.25-3.75 2.25-3.75s2.24996 1.5 2.24996 3.75c.0013.29586-.0561.58896-.1687.86246-.1126.2736-.2783.5221-.4875.7313-.2092.2092-.4577.3749-.73126.4875-.27354.1126-.56668.17-.8625.1687zm8.96246 6.975c-.0477.1518-.1424.2845-.2705.3788-.1281.0944-.2829.1456-.442.1462-.0766.0014-.1529-.0113-.225-.0375l-8.02496-2.55-8.025 2.55c-.072085.0262-.148343.0389-.225003.0375-.159092-6e-4-.313864-.0518-.441943-.1462-.128079-.0943-.22283-.227-.2705568-.3788-.0304549-.0935-.0419719-.1922-.0338781-.2902.0080939-.098.0356359-.1935.0810189-.2807.045383-.0873.107697-.1647.183304-.2276s.162993-.1102.257055-.139l6.000003-1.9125-6.000003-1.9125c-.101479-.0226-.197151-.066-.280941-.1276-.08379-.0615-.153868-.1398-.205786-.2299-.0519183-.0901-.0845418-.19-.09579985-.2933-.01125803-.1034-90453e-8-.2079.03040305-.3071.0313075-.0991.0828848-.1907.1514588-.2688.068574-.0781.152646-.1412.246879-.1851s.196569-.0678.30051-.07c.103942-.0023.20722.0171.303279.0568l8.025 2.55 8.02496-2.55c.0961-.0397.1994-.0591.3033-.0568.104.0022.2063.0261.3005.07.0943.0439.1783.107.2469.1851.0686.0781.1202.1697.1515.2688.0313.0992.0416.2037.0304.3071-.0113.1033-.0439.2032-.0958.2933-.052.0901-.122.1684-.2058.2299-.0838.0616-.1795.105-.281.1276l-6 1.9125 6 1.9125c.0941.0288.1815.0761.2571.139s.1379.1403.1833.2276c.0454.0872.0729.1827.081.2807s-.0034.1967-.0339.2902z"
+              ></path>
               <path
-                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                className="fill-blue-900"
+                d="M30.3039 17.24c-.9467.0-1.8-.1467-2.56-.44-.76-.3067-1.4067-.7533-1.94-1.34-.5334-.6-.9467-1.34-1.24-2.22-.2934-.8933-.44-1.9333-.44-3.12.0-1.17334.1466-2.21334.44-3.12.2933-.92.7066-1.68667 1.24-2.3.5333-.62667 1.18-1.1 1.94-1.42s1.6133-.48 2.56-.48c1.2933.0 2.36.26666 3.2.8.84.52 1.5133 1.34666 2.02 2.48l-2.62 1.36c-.1867-.58667-.48-1.05334-.88-1.4-.3867-.36-.96-.54-1.72-.54-.8934.0-1.6134.29333-2.16.88-.5334.57333-.8 1.41333-.8 2.52v2.24c0 1.1067.2666 1.9533.8 2.54.5466.5733 1.2666.86 2.16.86.7466.0 1.34-.2 1.78-.6.4533-.4133.7866-.9067 1-1.48l2.48 1.44c-.52 1.0667-1.2067 1.8933-2.06 2.48-.84.5733-1.9067.86-3.2.86zm13.0673-2c-.08.28-.3067.5467-.48.8-.1733.24-.3867.4533-.64.64-.24.1733-.52.3067-.84.4-.3067.1067-.6267.16-.96.16-1.3333.0-2.34-.4667-3.02-1.4-.68-.9467-1.02-2.3133-1.02-4.1.0-1.78667.34-3.14667 1.02-4.08.68-.93334 1.6867-1.4 3.02-1.4.68.0 1.28.18666 1.8.56.5333.37333.9733.85333 1.12 1.44V6.5h2.96V17h-2.96v-1.76zm-1.94-.4c.56.0 1.02-.1333 1.38-.4.3733-.28.56-.66.56-1.14v-3.1c0-.48-.1867-.85334-.56-1.12-.36-.28-.82-.42-1.38-.42s-1.0267.2-1.4.6c-.36.38666-.54.9133-.54 1.58v1.82c0 .6667.18 1.2.54 1.6.3733.3867.84.58 1.4.58zM48.4992 17V6.5h2.96v1.78c.1866-.56.6266-1.03334 1.08-1.42.4533-.4 1.0733-.6 1.86-.6.72.0 1.3333.18 1.84.54.5066.36.8733.88666 1.1 1.58.0933-.29334.2933-.56667.48-.82.2-.26667.44-.49334.72-.68.28-.18667.5933-.33334.94-.44.3467-.12.72-.18 1.12-.18 1.0133.0 1.7866.36 2.32 1.08.5466.72.82 1.74666.82 3.08V17h-2.96v-6.34c0-1.33334-.48-2-1.44-2-.44.0-.84.12666-1.2.38-.36.25333-.54.64-.54 1.16V17h-2.96v-6.34c0-1.33334-.48-2-1.44-2-.2134.0-.4267.03333-.64.1-.2.05333-.3867.14666-.56.28-.16.13333-.2934.3-.4.5-.0934.18666-.14.40666-.14.66V17h-2.96zM65.7703 6.5h2.96v1.76c.1466-.58667.58-1.06667 1.1-1.44.5333-.37334 1.14-.56 1.82-.56 1.3333.0 2.34.46666 3.02 1.4.68.93333 1.02 2.29333 1.02 4.08.0 1.7867-.34 3.1533-1.02 4.1-.68.9333-1.6867 1.4-3.02 1.4-.3467.0-.6734-.0533-.98-.16-.3067-.0933-.5867-.2267-.84-.4-.24-.1867-.4467-.4-.62-.64-.1734-.2533-.4-.52-.48-.8V21h-2.96V6.5zm4.9 8.34c.56.0 1.02-.1933 1.38-.58.3733-.4.56-.9333.56-1.6v-1.82c0-.6667-.1867-1.19334-.56-1.58-.36-.4-.82-.6-1.38-.6s-1.0267.14-1.4.42c-.36.26666-.54.64-.54 1.12v3.1c0 .48.18.86.54 1.14.3733.2667.84.4 1.4.4zM77.4982 17V3.04h9.26v2.7h-6.22V8.6h5.3v2.68h-5.3V17h-3.04zM89.9175 5.38c-.6.0-1.04-.13334-1.32-.4-.2667-.28-.4-.63334-.4-1.06v-.44c0-.42667.1333-.77334.4-1.04.28-.28.72-.42 1.32-.42s1.0333.14 1.3.42c.28.26666.42.61333.42 1.04v.44c0 .42666-.14.78-.42 1.06-.2667.26666-.7.4-1.3.4zm-1.48 1.12h2.96V17h-2.96V6.5zM93.5601 17V6.5h2.96v2.28c.0534-.29334.2467-.57334.38-.84.1334-.28.3067-.52667.52-.74.2267-.21334.4934-.38.8-.5.3067-.13334.6667-.2 1.08-.2h.52v2.76h-.74c-.8666.0-1.5133.11333-1.94.34-.4133.22666-.62.6467-.62 1.26V17h-2.96zM105.328 17.24c-.8.0-1.513-.1267-2.14-.38-.626-.2667-1.16-.6333-1.6-1.1-.426-.48-.753-1.06-.98-1.74-.213-.68-.32-1.44-.32-2.28.0-.8267.107-1.5733.32-2.24.214-.68.527-1.26.94-1.74.427-.48.947-.84667 1.56-1.1.614-.26667 1.314-.4 2.1-.4.867.0 1.607.14666 2.22.44.627.29333 1.134.68666 1.52 1.18.4.49333.687 1.06666.86 1.72.187.64.28 1.3133.28 2.02v.88h-6.74v.16c0 .6933.187 1.2467.56 1.66.374.4.96.6 1.76.6.614.0 1.114-.12 1.5-.36.387-.2533.747-.5533 1.08-.9l1.48 1.84c-.466.5467-1.08.9733-1.84 1.28-.746.3067-1.6.46-2.56.46zm-.06-8.8c-.6.0-1.073.2-1.42.6-.333.38666-.5.90666-.5 1.56v.16h3.68v-.18c0-.64-.146-1.15334-.44-1.54-.28-.4-.72-.6-1.32-.6z"
+              ></path>
             </svg>
-            Continue with Twitter
+        </div>
+        <div className="flex flex-col text-sm rounded-md">
+          <input
+            className="mb-5 rounded-[4px] border p-3 hover:outline-none focus:outline-none hover:border-yellow-500 "
+            type="text"
+            placeholder=" Email Id"
+          />
+          <input
+            className="border rounded-[4px] p-3 hover:outline-none focus:outline-none hover:border-yellow-500"
+            type="password"
+            placeholder="Password"
+          />
+        </div>
+        <button
+          className="mt-5 w-full border p-2 bg-gradient-to-r from-red-700 bg-red-500 text-white rounded-[4px] hover:bg-red-400 scale-105 duration-300"
+          type="submit"
+        >
+          Sign in
+        </button>
+        <div className="mt-5 flex justify-between text-sm text-gray-600">
+          <a href="#">Forgot password?</a>
+          <a href="#">Sign up</a>
+        </div>
+        <div className="flex justify-center mt-5 text-sm">
+          <p className="text-gray-400">or you can sign with</p>
+        </div>
+        <div className="mt-5 flex justify-center gap-3    ">
+          <img
+            className="h-7 grayscale cursor-pointer hover:grayscale-0 scale-105 duration-300"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAFbUlEQVRoge1ZXWwUVRT+zszs2nZbiUARui2b1lCgJAiWFAMRIoEHFYOtqSL4wAMQGyDxwUQMmiAhSh+NbRFN1AeaQGpacZUHTIjRItLQpCApPw0GdttSUihIty3dnZnjw5T+7Nz52c4WH+j3NHvvd875zt479+cMMI1pPNmgdDjhSshDaqiMSX8ZjFIGLQIwD0D2CCUGoJvAV0FoJcinM5feaKH90L3G9pTA4Ka8Al1SdgF4F0AwRfNOAEcl0mqzGrs6J6thUgn0V87NheY/SIxtAPyTDT6COAPfsqp+8nS4+06qxiknEKsIbQHzlwBmpmrrgLsM3p3TFD2WipHrBHhnqS/W21tHwPbUtbkHA0eyc3P30NetCTd8Vwnw63lZA4r8A0CveJPnEoyTAU2tpHD3oBNVcvS1s9T3WMUDAOHVAVk5wZVLHN8vxwRivb11j1X8IxDWx9T+L5xpNoiVh7YCfDR9qlIHE2/OaYwet+q3TOBBeXCWBPkKgNlTosw9+nRVXWi1xFpOISL5M/z/4gFgpiz7PrXqFI7AYEUwX2f5Ohw2KXnZGiirXoO0uAzSrLkAAL2vB3p7C9TmMLSLzV6Ej0dcVpQFmQ3/RJI7FBFbZ3k3bMRLwSL4q6ohl5SZ+/KKIOUVQVm/GVp7C+I1H0DvuelFPAD4NVWtAvBRcodpBHg/pIEL828CyBd5kpe8iKf2fgMKPO0qsnalFQ/3vQkwp6jZhK6AEglRA7TxjaYRGLoQWgmwULwULJooPhFH4lQ91D9OQI9cNTgFxVDWlsO3YQv07usYrt6RDvEAEBxK5JcCnS22CRhHYvHi5K+qHhXPfT14eHAb9BuXJ3D0jjbEO9qg/noMfO82+EGfK3WBRmOaDVSELDk6SesA2CegM1aI5MvPvzQ25xNxofgJfm5a900WBJQmt5mWUQIVi4yV1RtHnxOn6m3FTxUYWJjcJlqF5omMpcVjK476+4/CAI+mgRX0rusY2rPOlj++TTCdTNpEG1m2oA0069nRZ4522Aq1Ao3sFR6Qk9wg3AemDPrE1Wj8P+zmJRZBlEAMgtsW370NChYBAKhgAbijzWQoCi4tfAGZnzcZPvp6UhInQL/Jv4B0S2SpXx5bvZS15a4jKmvGuHp7iw3TFUzaTAkw+JrIUm0Ojz77NmyBVFjiGE0qXALfhnfGfJwJW3IHKkKO04eAq6YYpgbCeZGxdrEZWvs544fPj4x939kmIRWWIOPj7wHFZ9hfOgvt7z9tBTqBYdYm2Afk01YO4nV7wbF/Dd7Mucis/gn+7QcgFS8HZQSAjCxIxcvh334AmYdOgJ6ZYwSO3Uf88F5P4gGAiE3arA5zNwAUiJzIJSuN81D2DFdBOXYfw4d2QPM6/5kjgWXRwuRqnnkEDEK9lR+t/RwefrgJ2qW/HGNql84aXO8vLyBRvagU6e1Cs3Q1lFUbIZWUgWYbmyTfuWVcaM6EPc/5cRiWFP25rIbOruQOyztxf/n8wwS8ly4FXkDENYHG6B5Rn+WdWFf0fQBSrlVOAe5qCc3yTmyZwIyGzj4GC7N+nGCgyq7oa1vYymmKHmPgSPpluQOBa3OaIg12HMfKXLYS2cVE4vPz1OKXrHvR951IjglQA7TsRGIrGCfTo8sVfg6o6lv0G1QnomMCAEDh7sHAnNw3GPjKuzaHWODawL1IuZvKtMFPEf0VBW8TUw3SXrWjXgbvcprzyXA1AuOR0xg9rkNbREx1AIZTtRdgmIhrNEVblKp4wOtHvsr8oK5KuwFshcXZyQZREI5Ksl4r2mHdIj2fWfdDGmrLX6GTtI6A0pHqQRATPrNSJ4GvMXCeiE9nLY22puMz6zSm8aTjPy9i6LxlaK5BAAAAAElFTkSuQmCC"
+          />
+          <img
+            className="h-7 grayscale cursor-pointer hover:grayscale-0 scale-105 duration-300 "
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAC40lEQVRoge3Yz4sXdRzH8Ye7pG4SsgcFpVo3kbR1PdWhLgWpl04evHmwv0FDBSMPpVR0j252kJaQWEIvIiEoopcoVsEfCf4IfyBIoZW47Xb4zPodvs5nPvPd78x6aJ7wOcx75vN6v94zn/nM5zO0tLS0tPTBogY0R7ARo1iWxR7hGqZwo4GcfTOGrwSTs4n2G77EhufitIv1mMSMtPHuNoMf8PqCu8YA9uNxRbNl7R/syzQXhGU4XoPx7vajzjvTqPkzDZifa6ebLGJAM3e+6Ek0Mpz2dyV6gjexGd9mx1VNPsFhvI+3MN11fl9VU1W/A+vxCxbnYlMYzx2PCdPjEM4KU+of2bnlWIu38Rd242Ku7wW8kTt+jE24XNFfkknP3sWzdYnjXIH+0brExxTP85fqSoArBfr/qvCxq/KyfKh4qI1gsLrHKIN4pSA+gJ016EeXB5/VIZ5xMJLjSr/Cr0aE/8Zwv+I5hjPNolwvl3VMDaHxSPwEHvTmsZQHONmjB6QLGI3Er6YczYPYcIl5QLqAlyLxO0k7vXM7El9e1ilVwHQk/mLSTu/E1kAxD0gXcD8SX5e00zuxfcG9sk6pAu5G4u9V6NsLg3g3cq60gBQrxXdb2/oR7mJ7JMcMVvQrfjEifhOr+xUX5vnfIzmmatD3eUR8Fj9LTHMJXsOvJfqH+tB+yqjOev0mtmIPHmaxP4W9wqoeNFfj46xvzPy0sN6qhaM6G5G9wuJui7BizI/XKXxSonMgu6bKX4yJuswTnsKjnPiOLL6rIPGWEp2tFYzPCk+3trs/x0e5BLd0Pjwf4BjO42ssKdEYUu3u76rbPGHYTOSSfDFPndiqc64d0cwvT7AUp3LJvhFWi4vxgmrTalkBPyl/grUwhO8Kks8IG/YUsQKOCDdoQVgkvBP5F3vW/Ap4KIz5xoZNGWvwvc534nqFPtd15vkJYdf33BnBp8J/nxTvZNfWPk22tLS0tPz/+A/3Y3+ksla8tgAAAABJRU5ErkJggg=="
+          />
+          <img
+            className="h-7 grayscale cursor-pointer hover:grayscale-0 scale-105 duration-300"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAFEklEQVRoge2ZW2gcVRjH/2c22SQ1aZLNRXNraFATvKFs0QdfTPTFiKCIQUwFwZQYkqIY8cELrKLFF2+0G4yVgpBgm4q0oO2DJvpgVUICKohtUFuSzcZoLrK7uezOzPn7kLRddmZ2ZjJJfGg+WHZ2zjnf/P7nfOc7c84CO7Zj17aJTfEyRF/TSvxuAM0SCIJsAlFFsJAECCQoGQVwgeQ4wZFL04FRhIT0+mhPAm77dLlO12Q3yf0kawCAJEgAWPte+xAmZRFKDug5Ijx9oCyyrQJuHIpX+JN4k8DTJPwWgNng0+4jBfKY7lNfi3ZWz225gFsHEk9KicMQDGQHdASfXmeeFD3RnorjWyIg2M/c1cJEn5SiwwjiGf5qHaB/JrfyIDqFumkCgv3ctXLd0mckHtxS+Kvtz/jy5ePRzuplOzbFAXzuNsMDQKu2itMI/er3LGC1MNG3zfBrZVI8UF5S+oEdX9YQumUw0U6JAS/wCoiWej/urc5FfbGCkjwFKZ1QdSKWIn6MpvDxTyuW7SX5xEJvzQnXApo+iZUJRTkPsHyj8HdW+vBecyH2FvssO+lcJIXHPl+08E0AWEhRNMZfNE+xliGkKOKQF/i7Kn0Yenh3Vvh0yxJ2gRzK1y05zW7eMbBcu75IbQjeJ4jD9xfB73OWpR3MmY7St6N7HAtQKXvoYYVtbchDbZFtfkgTkBUeJP1S0bvM2uYY7oSokIl2L9mmuS7XFHQypqN3OI5f/lavkKuSdvBrzyCfwhBfRZvQswpo2hu/h0TtRuFJ4PYKY78AwAvDcXw3lbRtb7FC1+y+GAnGgNF0n2bj3OwFniTKC4xu/1qSOLdReF7+LVsy/ZoJ2Od1kSryGyfvZEwHPcADACWCtgIkebMXeJJQTJJPPCm9wRMgZGOmX0OwkqjyAr9+aTBJR9kmax1SVGX6NQmh9W3ghuEtFMArPACwKNOj2Qi4cvzD/oAh5s1C6L76PEw8e73h/snfVvDS14tO4E1H15jviATJgBN4ACjOE6aTNtNyFaAk3zjg0bjmGJ5kPLO92SSecQpPsy5xaRPzmlN4CGDGVgCICa8T1o39vqA6ggcACVywFUBwzFW28ACvSeDPRc0R/Pr1WKYP4yQGR4zA1pP6ua9iyLncDetlRx8qMWw0fp5V8f5o/EodAFjViKQmncKDCkZsBVyaDozuqVqYAllnB08CZ/9YNZR9xBKIDAWzSzpOnV92M2EzO29SlQ3jmbzGORASEpKDTuCtyqzMAzwADJodRZq+tOs5Ikwi5eWVejPhCSZTqhY282sqYPpAWQTksc2CB4x1HMOTkMRRvNU47VgAANDvf4XknFv47CHkHp7EvC50d3tiAIh0FC+Q4qBbeLvFzSU8CHYh1Gh56Jt14xrtqThOoP9/hA/rb9x0MptP2533TGVlN8FTTuEtRbiEB/ClrkSet+OzPzpoE7ovT7aDPOPi4Wb8zuHJLzRlVxtCzZp3AQCindXLswU3PELBD+3h3Wei9PYEw5ov8ihC9ifTgNnrtJV1CnUO6Aq8M/2tAhyRRPlGFrIs8P8Q7LaL+Uxzfvq0bgu9NSeSSTaR7AOQdLMWWC1SEjiiKckmt/CAmxFIs/jLtfMAusvenTqkaegB2E6iziX8FIABVdXDVouUE9ucv1lDVHYXRPaRsoUSwe+fqWoN5Iv80gKfIgTw74qUwxeXFztOz31DcowCI6psGN+Mv1l3bMeudfsPP8EkRZOLDr8AAAAASUVORK5CYII="
+          />
+          <a
+            className="bg-gray-400 h-7 w-7 rounded-3xl text-center grayscale cursor-pointer hover:grayscale-0 scale-105 duration-300 "
+            href=""
+          >
+            ...
           </a>
-        </form>
+        </div>
+        <div className="mt-5 flex text-center text-sm text-gray-400">
+          <p>
+            Please carefully read our <br />
+            <a className="underline" href="">
+              Privacy Policy
+            </a>{" "}
+            and{" "}
+            <a className="underline" href="">
+              Terms of Service
+            </a>{" "}
+            apply.
+          </p>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-    );
+    </section>
+  );
 };
 
 export default Login;

@@ -2,7 +2,7 @@ const BookDetails = () => {
   return (
     <section>
       <div className="grid grid-cols-2 p-10">
-        <div className=" grid place-content-end pr-20">
+        <div className=" grid place-content-center ">
           <img
             src="https://m.media-amazon.com/images/I/71Ow6MUOx2L.jpg"
             alt="book"
@@ -29,9 +29,9 @@ const BookDetails = () => {
 
       {/* book details */}
 
-      <div className="my-16">
+      <div className="my-16  mx-auto">
         <div className="grid grid-cols-2 gap-4 mt-10">
-          <div>
+          <div >
             <p className="font-bold text-xl">Book Details</p>
 
             <div className="flex items-center mt-4">
@@ -64,7 +64,7 @@ const BookDetails = () => {
             </div>
 
           </div>
-          <div>
+          <div >
             <p className="font-bold text-xl">Book Reviews</p>
             {/* book Reviews */}
 
