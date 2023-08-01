@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const Login = () => {
   return (
-    <section className="flex items-center justify-center h-screen">
-      <div className="min-w-fit flex-col border bg-white px-6 py-14 shadow-md rounded-[4px] ">
+    <section className="flex items-center justify-center h-[calc(100vh-320px)]">
+      <div className="min-w-[400px] flex-col border bg-white px-6 py-14 shadow-md rounded-[4px] ">
         <div className="mb-8 flex justify-center">
            <svg className="h-6" viewBox="0 0 111 21">
               <path
@@ -16,12 +18,12 @@ const Login = () => {
         </div>
         <div className="flex flex-col text-sm rounded-md">
           <input
-            className="mb-5 rounded-[4px] border p-3 hover:outline-none focus:outline-none hover:border-yellow-500 "
+            className="mb-5 rounded-[4px] border p-3 hover:outline-none focus:outline-none focus:ring-2 ring-red-300 hover:border-blue-900 "
             type="text"
             placeholder=" Email Id"
           />
           <input
-            className="border rounded-[4px] p-3 hover:outline-none focus:outline-none hover:border-yellow-500"
+            className="border rounded-[4px] p-3 hover:outline-none focus:outline-none focus:ring-2 ring-red-300 hover:border-blue-900"
             type="password"
             placeholder="Password"
           />
@@ -34,7 +36,7 @@ const Login = () => {
         </button>
         <div className="mt-5 flex justify-between text-sm text-gray-600">
           <a href="#">Forgot password?</a>
-          <a href="#">Sign up</a>
+          <Link to='/signup'>Sign up</Link>
         </div>
         <div className="flex justify-center mt-5 text-sm">
           <p className="text-gray-400">or you can sign with</p>
@@ -52,25 +54,6 @@ const Login = () => {
             className="h-7 grayscale cursor-pointer hover:grayscale-0 scale-105 duration-300"
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAFEklEQVRoge2ZW2gcVRjH/2c22SQ1aZLNRXNraFATvKFs0QdfTPTFiKCIQUwFwZQYkqIY8cELrKLFF2+0G4yVgpBgm4q0oO2DJvpgVUICKohtUFuSzcZoLrK7uezOzPn7kLRddmZ2ZjJJfGg+WHZ2zjnf/P7nfOc7c84CO7Zj17aJTfEyRF/TSvxuAM0SCIJsAlFFsJAECCQoGQVwgeQ4wZFL04FRhIT0+mhPAm77dLlO12Q3yf0kawCAJEgAWPte+xAmZRFKDug5Ijx9oCyyrQJuHIpX+JN4k8DTJPwWgNng0+4jBfKY7lNfi3ZWz225gFsHEk9KicMQDGQHdASfXmeeFD3RnorjWyIg2M/c1cJEn5SiwwjiGf5qHaB/JrfyIDqFumkCgv3ctXLd0mckHtxS+Kvtz/jy5ePRzuplOzbFAXzuNsMDQKu2itMI/er3LGC1MNG3zfBrZVI8UF5S+oEdX9YQumUw0U6JAS/wCoiWej/urc5FfbGCkjwFKZ1QdSKWIn6MpvDxTyuW7SX5xEJvzQnXApo+iZUJRTkPsHyj8HdW+vBecyH2FvssO+lcJIXHPl+08E0AWEhRNMZfNE+xliGkKOKQF/i7Kn0Yenh3Vvh0yxJ2gRzK1y05zW7eMbBcu75IbQjeJ4jD9xfB73OWpR3MmY7St6N7HAtQKXvoYYVtbchDbZFtfkgTkBUeJP1S0bvM2uYY7oSokIl2L9mmuS7XFHQypqN3OI5f/lavkKuSdvBrzyCfwhBfRZvQswpo2hu/h0TtRuFJ4PYKY78AwAvDcXw3lbRtb7FC1+y+GAnGgNF0n2bj3OwFniTKC4xu/1qSOLdReF7+LVsy/ZoJ2Od1kSryGyfvZEwHPcADACWCtgIkebMXeJJQTJJPPCm9wRMgZGOmX0OwkqjyAr9+aTBJR9kmax1SVGX6NQmh9W3ghuEtFMArPACwKNOj2Qi4cvzD/oAh5s1C6L76PEw8e73h/snfVvDS14tO4E1H15jviATJgBN4ACjOE6aTNtNyFaAk3zjg0bjmGJ5kPLO92SSecQpPsy5xaRPzmlN4CGDGVgCICa8T1o39vqA6ggcACVywFUBwzFW28ACvSeDPRc0R/Pr1WKYP4yQGR4zA1pP6ua9iyLncDetlRx8qMWw0fp5V8f5o/EodAFjViKQmncKDCkZsBVyaDozuqVqYAllnB08CZ/9YNZR9xBKIDAWzSzpOnV92M2EzO29SlQ3jmbzGORASEpKDTuCtyqzMAzwADJodRZq+tOs5Ikwi5eWVejPhCSZTqhY282sqYPpAWQTksc2CB4x1HMOTkMRRvNU47VgAANDvf4XknFv47CHkHp7EvC50d3tiAIh0FC+Q4qBbeLvFzSU8CHYh1Gh56Jt14xrtqThOoP9/hA/rb9x0MptP2533TGVlN8FTTuEtRbiEB/ClrkSet+OzPzpoE7ovT7aDPOPi4Wb8zuHJLzRlVxtCzZp3AQCindXLswU3PELBD+3h3Wei9PYEw5ov8ihC9ifTgNnrtJV1CnUO6Aq8M/2tAhyRRPlGFrIs8P8Q7LaL+Uxzfvq0bgu9NSeSSTaR7AOQdLMWWC1SEjiiKckmt/CAmxFIs/jLtfMAusvenTqkaegB2E6iziX8FIABVdXDVouUE9ucv1lDVHYXRPaRsoUSwe+fqWoN5Iv80gKfIgTw74qUwxeXFztOz31DcowCI6psGN+Mv1l3bMeudfsPP8EkRZOLDr8AAAAASUVORK5CYII="
           />
-          <a
-            className="bg-gray-400 h-7 w-7 rounded-3xl text-center grayscale cursor-pointer hover:grayscale-0 scale-105 duration-300 "
-            href=""
-          >
-            ...
-          </a>
-        </div>
-        <div className="mt-5 flex text-center text-sm text-gray-400">
-          <p>
-            Please carefully read our <br />
-            <a className="underline" href="">
-              Privacy Policy
-            </a>{" "}
-            and{" "}
-            <a className="underline" href="">
-              Terms of Service
-            </a>{" "}
-            apply.
-          </p>
         </div>
       </div>
     </section>
