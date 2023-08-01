@@ -1,80 +1,171 @@
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
     return (
         <>
-            <h1 className="text-2xl font-bold text-center my-10">10 Recent Books</h1>
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+            <h1 className="text-4xl font-bold text-center my-10">10 Recent Books</h1>
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5">
+                <Link to="/books">
+                    <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition duration-100">
                     <img
-                        src="https://images.unsplash.com/photo-1612837049782-1e0b5d0b3e6a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9va3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                        src="https://m.media-amazon.com/images/I/71Ow6MUOx2L.jpg"
                         alt="book"
-                        className="w-full h-56 object-cover object-center"
+                        className="w-full h-fit object-cover object-center"
                     />
                     <div className="p-4">
-                        <p className="text-2xl font-semibold">A book of heaven</p>
-                        <p className="font-semibold text-gray-500">Author: Masud Rana</p>
-                        <p className="font-semibold text-gray-500">Genre: Horror</p>
-                        <p className="font-semibold text-gray-500">Publication Date: 27 July</p>
+                        <p className="text-2xl text-black font-semibold">The Art of War</p>
+                        <p className="text-sm font-semibold text-gray-500">Author: SUN TZU</p>
+                        <p className="text-sm font-semibold text-gray-500">Genre: History</p>
+                        <p className="text-sm font-semibold text-gray-500">Publication Date: 27 July</p>
 
                     </div>
                 </div>
-                <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+                </Link> 
+                <Link to="/books">
+                    <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition duration-100">
                     <img
-                        src="https://images.unsplash.com/photo-1612837049782-1e0b5d0b3e6a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9va3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                        src="https://m.media-amazon.com/images/I/71Ow6MUOx2L.jpg"
                         alt="book"
-                        className="w-full h-56 object-cover object-center"
+                        className="w-full h-fit object-cover object-center"
                     />
                     <div className="p-4">
-                        <p className="text-2xl font-semibold">A book of heaven</p>
-                        <p className="font-semibold text-gray-500">Author: Masud Rana</p>
-                        <p className="font-semibold text-gray-500">Genre: Horror</p>
-                        <p className="font-semibold text-gray-500">Publication Date: 27 July</p>
+                        <p className="text-2xl text-black font-semibold">The Art of War</p>
+                        <p className="text-sm font-semibold text-gray-500">Author: SUN TZU</p>
+                        <p className="text-sm font-semibold text-gray-500">Genre: History</p>
+                        <p className="text-sm font-semibold text-gray-500">Publication Date: 27 July</p>
 
                     </div>
                 </div>
-                <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+                </Link> 
+                <Link to="/books">
+                    <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition duration-100">
                     <img
-                        src="https://images.unsplash.com/photo-1612837049782-1e0b5d0b3e6a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9va3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                        src="https://m.media-amazon.com/images/I/71Ow6MUOx2L.jpg"
                         alt="book"
-                        className="w-full h-56 object-cover object-center"
+                        className="w-full h-fit object-cover object-center"
                     />
                     <div className="p-4">
-                        <p className="text-2xl font-semibold">A book of heaven</p>
-                        <p className="font-semibold text-gray-500">Author: Masud Rana</p>
-                        <p className="font-semibold text-gray-500">Genre: Horror</p>
-                        <p className="font-semibold text-gray-500">Publication Date: 27 July</p>
+                        <p className="text-2xl text-black font-semibold">The Art of War</p>
+                        <p className="text-sm font-semibold text-gray-500">Author: SUN TZU</p>
+                        <p className="text-sm font-semibold text-gray-500">Genre: History</p>
+                        <p className="text-sm font-semibold text-gray-500">Publication Date: 27 July</p>
 
                     </div>
                 </div>
-                <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+                </Link> 
+                <Link to="/books">
+                    <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition duration-100">
                     <img
-                        src="https://images.unsplash.com/photo-1612837049782-1e0b5d0b3e6a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9va3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                        src="https://m.media-amazon.com/images/I/71Ow6MUOx2L.jpg"
                         alt="book"
-                        className="w-full h-56 object-cover object-center"
+                        className="w-full h-fit object-cover object-center"
                     />
                     <div className="p-4">
-                        <p className="text-2xl font-semibold">A book of heaven</p>
-                        <p className="font-semibold text-gray-500">Author: Masud Rana</p>
-                        <p className="font-semibold text-gray-500">Genre: Horror</p>
-                        <p className="font-semibold text-gray-500">Publication Date: 27 July</p>
+                        <p className="text-2xl text-black font-semibold">The Art of War</p>
+                        <p className="text-sm font-semibold text-gray-500">Author: SUN TZU</p>
+                        <p className="text-sm font-semibold text-gray-500">Genre: History</p>
+                        <p className="text-sm font-semibold text-gray-500">Publication Date: 27 July</p>
 
                     </div>
                 </div>
-                <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+                </Link> 
+                <Link to="/books">
+                    <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition duration-100">
                     <img
-                        src="https://images.unsplash.com/photo-1612837049782-1e0b5d0b3e6a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9va3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                        src="https://m.media-amazon.com/images/I/71Ow6MUOx2L.jpg"
                         alt="book"
-                        className="w-full h-56 object-cover object-center"
+                        className="w-full h-fit object-cover object-center"
                     />
                     <div className="p-4">
-                        <p className="text-2xl font-semibold">A book of heaven</p>
-                        <p className="font-semibold text-gray-500">Author: Masud Rana</p>
-                        <p className="font-semibold text-gray-500">Genre: Horror</p>
-                        <p className="font-semibold text-gray-500">Publication Date: 27 July</p>
+                        <p className="text-2xl text-black font-semibold">The Art of War</p>
+                        <p className="text-sm font-semibold text-gray-500">Author: SUN TZU</p>
+                        <p className="text-sm font-semibold text-gray-500">Genre: History</p>
+                        <p className="text-sm font-semibold text-gray-500">Publication Date: 27 July</p>
 
                     </div>
                 </div>
+                </Link> 
+                <Link to="/books">
+                    <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img
+                        src="https://m.media-amazon.com/images/I/71Ow6MUOx2L.jpg"
+                        alt="book"
+                        className="w-full h-fit object-cover object-center"
+                    />
+                    <div className="p-4">
+                        <p className="text-2xl text-black font-semibold">The Art of War</p>
+                        <p className="text-sm font-semibold text-gray-500">Author: SUN TZU</p>
+                        <p className="text-sm font-semibold text-gray-500">Genre: History</p>
+                        <p className="text-sm font-semibold text-gray-500">Publication Date: 27 July</p>
+
+                    </div>
+                </div>
+                </Link> 
+                <Link to="/books">
+                    <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img
+                        src="https://m.media-amazon.com/images/I/71Ow6MUOx2L.jpg"
+                        alt="book"
+                        className="w-full h-fit object-cover object-center"
+                    />
+                    <div className="p-4">
+                        <p className="text-2xl text-black font-semibold">The Art of War</p>
+                        <p className="text-sm font-semibold text-gray-500">Author: SUN TZU</p>
+                        <p className="text-sm font-semibold text-gray-500">Genre: History</p>
+                        <p className="text-sm font-semibold text-gray-500">Publication Date: 27 July</p>
+
+                    </div>
+                </div>
+                </Link> 
+                <Link to="/books">
+                    <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img
+                        src="https://m.media-amazon.com/images/I/71Ow6MUOx2L.jpg"
+                        alt="book"
+                        className="w-full h-fit object-cover object-center"
+                    />
+                    <div className="p-4">
+                        <p className="text-2xl text-black font-semibold">The Art of War</p>
+                        <p className="text-sm font-semibold text-gray-500">Author: SUN TZU</p>
+                        <p className="text-sm font-semibold text-gray-500">Genre: History</p>
+                        <p className="text-sm font-semibold text-gray-500">Publication Date: 27 July</p>
+
+                    </div>
+                </div>
+                </Link> 
+                <Link to="/books">
+                    <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img
+                        src="https://m.media-amazon.com/images/I/71Ow6MUOx2L.jpg"
+                        alt="book"
+                        className="w-full h-fit object-cover object-center"
+                    />
+                    <div className="p-4">
+                        <p className="text-2xl text-black font-semibold">The Art of War</p>
+                        <p className="text-sm font-semibold text-gray-500">Author: SUN TZU</p>
+                        <p className="text-sm font-semibold text-gray-500">Genre: History</p>
+                        <p className="text-sm font-semibold text-gray-500">Publication Date: 27 July</p>
+
+                    </div>
+                </div>
+                </Link> 
+                <Link to="/books">
+                    <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img
+                        src="https://m.media-amazon.com/images/I/71Ow6MUOx2L.jpg"
+                        alt="book"
+                        className="w-full h-fit object-cover object-center"
+                    />
+                    <div className="p-4">
+                        <p className="text-2xl text-black font-semibold">The Art of War</p>
+                        <p className="text-sm font-semibold text-gray-500">Author: SUN TZU</p>
+                        <p className="text-sm font-semibold text-gray-500">Genre: History</p>
+                        <p className="text-sm font-semibold text-gray-500">Publication Date: 27 July</p>
+
+                    </div>
+                </div>
+                </Link> 
             </div>
         </>
     );

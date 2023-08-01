@@ -56,8 +56,8 @@ const Footer = () => {
     © 2023 Copyright:
     <a
       className="text-neutral-800 hover:text-neutral-600"
-      href="https://tailwind-elements.com/"
-      >BFBooks - Buy Favorite Books</a>
+      href="#"
+      > BFBooks - Buy Favorite Books</a>
   </div>
 </footer>
 
